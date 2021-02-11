@@ -1,6 +1,6 @@
 # Portfolio
 A multi-page website utilizing bootstrap and Reactjs to display my personal portfolio.
-https://seemoregold.github.io/New_Portfolio/
+https://seemoregold.github.io/My-Portfolio/
 
 ## Getting Started
 
