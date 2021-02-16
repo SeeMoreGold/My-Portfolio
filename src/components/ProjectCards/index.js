@@ -1,113 +1,167 @@
 import React from "react";
+import pourDecisions from "../../img/pourdecisions.png";
+import pwGenerator from "../../img/pwgenerator.png";
+import innerNet from "../../img/innernet.png";
 import { Container, Row, Col } from "../../components/Grid";
 import { CardDeck, Card } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPhoneSquare,
-  faEnvelopeSquare,
-  faFileAlt,
-} from "@fortawesome/free-solid-svg-icons";
-import { faGithubSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 function ProjectCards() {
   return (
     <Container fluid>
       <Row>
-      <Col size="md-1">
-        </Col>
-        <Col size="md-10">
+        <Col size="md-12">
           <div className="container-fluid">
             <CardDeck>
-                {/* This Card is for Github */}
+              {/* This Card is for Pour Decisions */}
               <Card>
-                <Card.Body>
-                  <Card.Title>
-                    <h1 className="text-center">
-                    </h1>
-                  </Card.Title>
-                  <Card.Text h1 className="text-center">
-                    <Card.Link
-                      target="_blank"
-                      href="https://github.com/SeeMoreGold"
-                    >
-                      github.com/SeeMoreGold
-                    </Card.Link>
+                <Card.Img variant="top" src={pourDecisions} />
+                <Card.Body className="text-center">
+                  <Card.Text className="text-center">
+                    <p>A fun meal planning app.</p>
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer className="text-center">
+                  <Card.Link
+                    target="_blank"
+                    href="https://jrtwheeler.github.io/Pour-Decision/"
+                  >
+                    Deployed Site
+                  </Card.Link>
+                  <Card.Link
+                    target="_blank"
+                    href="https://github.com/SeeMoreGold/Pour-Decision"
+                  >
+                    Github Repo
+                  </Card.Link>
+                </Card.Footer>
               </Card>
-              
-              {/* This Card is for Linkedin */}
+
+              {/* This Card is for Password Generator */}
               <Card>
+                <Card.Img variant="top" src={pwGenerator} />
                 <Card.Body>
-                    
-                  <Card.Title>
-                    <h1 className="text-center">
-                      <FontAwesomeIcon icon={faLinkedin} />
-                    </h1>
-                  </Card.Title>
-                  <Card.Text h1 className="text-center">
-                    <Card.Link
-                      target="_blank"
-                      href="https://www.linkedin.com/in/seemoregold/"
-                    >
-                      linkedin.com/in/seemoregold
-                    </Card.Link>
+                  <Card.Text className="text-center">
+                    <p>Generate a random password.</p>
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer className="text-center">
+                <Card.Link
+                    target="_blank"
+                    href="https://seemoregold.github.io/Password-Generator/"
+                  >
+                    Deployed Site
+                  </Card.Link>
+                  <Card.Link
+                    target="_blank"
+                    href="https://github.com/SeeMoreGold/Password-Generator"
+                  >
+                    Github Repo
+                  </Card.Link>
+                </Card.Footer>
+              </Card>
+
+              {/* This Card is for innerNet */}
+              <Card>
+                <Card.Img variant="top" src={innerNet} />
+                <Card.Body>
+                  <Card.Text className="text-center">
+                    <p>A personal bookmark app.</p>
+                  </Card.Text>
+                </Card.Body>
+                <Card.Footer className="text-center">
+                <Card.Link
+                    target="_blank"
+                    href="https://innernet.herokuapp.com/login"
+                  >
+                    Deployed Site
+                  </Card.Link>
+                  <Card.Link
+                    target="_blank"
+                    href="https://github.com/SeeMoreGold/innerNet"
+                  >
+                    Github Repo
+                  </Card.Link>
+                </Card.Footer>
               </Card>
             </CardDeck>
           </div>
         </Col>
       </Row>
+      
       <Row>
         <Col size="md-12">
           <div className="container-fluid">
             <CardDeck>
-                {/* This Card is for Email */}
+              {/* This Card is for Work Day Scheduler */}
               <Card>
-                <Card.Body>
-                  <Card.Title>
-                    <h1 className="text-center">
-                      <FontAwesomeIcon icon={faEnvelopeSquare} />
-                    </h1>
-                  </Card.Title>
-                  <Card.Text h1 className="text-center">
-                    moreau.cj@gmail.com
+                <Card.Img variant="top" src={pourDecisions} />
+                <Card.Body className="text-center">
+                  <Card.Text className="text-center">
+                    <p>A fun meal planning app.</p>
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer className="text-center">
+                  <Card.Link
+                    target="_blank"
+                    href="https://jrtwheeler.github.io/Pour-Decision/"
+                  >
+                    Deployed Site
+                  </Card.Link>
+                  <Card.Link
+                    target="_blank"
+                    href="https://github.com/SeeMoreGold/Pour-Decision"
+                  >
+                    Github Repo
+                  </Card.Link>
+                </Card.Footer>
               </Card>
-              
-              {/* This Card is for Phone */}
+
+              {/* This Card is for Password Generator */}
               <Card>
+                <Card.Img variant="top" src={pwGenerator} />
                 <Card.Body>
-                  <Card.Title>
-                    <h1 className="text-center">
-                      <FontAwesomeIcon icon={faPhoneSquare} />
-                    </h1>
-                  </Card.Title>
-                  <Card.Text h1 className="text-center">
-                    724-322-2687
+                  <Card.Text className="text-center">
+                    <p>Generate a random password.</p>
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer className="text-center">
+                <Card.Link
+                    target="_blank"
+                    href="https://seemoregold.github.io/Password-Generator/"
+                  >
+                    Deployed Site
+                  </Card.Link>
+                  <Card.Link
+                    target="_blank"
+                    href="https://github.com/SeeMoreGold/Password-Generator"
+                  >
+                    Github Repo
+                  </Card.Link>
+                </Card.Footer>
               </Card>
-              
-              {/* This Card is for Resume */}
+
+              {/* This Card is for innerNet */}
               <Card>
+                <Card.Img variant="top" src={innerNet} />
                 <Card.Body>
-                  <Card.Title>
-                    <h1 className="text-center">
-                      <FontAwesomeIcon icon={faFileAlt} />
-                    </h1>
-                  </Card.Title>
-                  <Card.Text h1 className="text-center">
-                    <Card.Link
-                      target="_blank"
-                      href="https://drive.google.com/file/d/1_o140BsPe8w3rgXLSLYa5vXK9N6jvpOk/view?usp=sharing"
-                    >
-                      Resume
-                    </Card.Link>
+                  <Card.Text className="text-center">
+                    <p>A personal bookmark app.</p>
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer className="text-center">
+                <Card.Link
+                    target="_blank"
+                    href="https://innernet.herokuapp.com/login"
+                  >
+                    Deployed Site
+                  </Card.Link>
+                  <Card.Link
+                    target="_blank"
+                    href="https://github.com/SeeMoreGold/innerNet"
+                  >
+                    Github Repo
+                  </Card.Link>
+                </Card.Footer>
               </Card>
             </CardDeck>
           </div>

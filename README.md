@@ -14,7 +14,7 @@ View this website on a default browser like Google Chrome. This website is respo
 * Reactjs (https://reactjs.org/)
 
 ## Screenshots
-[Screen shot of about me page](./img/screenshot.png "Index screen shot")
+[Screen shot of about me page](../../src/img/screenshot.png "Index screen shot")
 
 ## Credits
 
