@@ -11,6 +11,10 @@ import {
   faNode,
   faBootstrap
 } from "@fortawesome/free-brands-svg-icons";
+import photoshop from "../../img/photoshop.png";
+import illustrator from "../../img/illustrator.png";
+import aftereffects from "../../img/aftereffects.png";
+import xd from "../../img/xd.png";
 
 function SkillsCards() {
   return (
@@ -137,6 +141,71 @@ function SkillsCards() {
                   </Card.Title>
                   <Card.Text h1 className="text-center">
                     MongoDb
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </CardDeck>
+          </div>
+        </Col>
+        <Col size="md-1"></Col>
+      </Row>
+      <Row>
+      <Col size="md-1"></Col>
+        <Col size="md-10">
+          <div className="container-fluid">
+          <CardDeck>
+              {/* This Card is for Adobe Photoshop */}
+              <Card>
+                <Card.Body>
+                  <Card.Title>
+                    <h1 className="text-center">
+                     <img src={photoshop} width="40px" alt=""/>
+                    </h1>
+                  </Card.Title>
+                  <Card.Text h1 className="text-center">
+                    Adobe Photoshop
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+
+              {/* This Card is for Adobe Illustrator */}
+              <Card>
+                <Card.Body>
+                  <Card.Title>
+                    <h1 className="text-center">
+                    <img src={illustrator} width="40px" alt=""/>
+                    </h1>
+                  </Card.Title>
+                  <Card.Text h1 className="text-center">
+                  Adobe Illustrator
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+
+              {/* This Card is for Aftereffects */}
+              <Card>
+                <Card.Body>
+                  <Card.Title>
+                    <h1 className="text-center">
+                    <img src={aftereffects} width="40px" alt=""/>
+                    </h1>
+                  </Card.Title>
+                  <Card.Text h1 className="text-center">
+                    Adobe After Effects
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            
+               {/* This Card is for XD */}
+               <Card>
+                <Card.Body>
+                  <Card.Title>
+                    <h1 className="text-center">
+                    <img src={xd} width="40px" alt=""/>
+                    </h1>
+                  </Card.Title>
+                  <Card.Text h1 className="text-center">
+                    Adobe XD
                   </Card.Text>
                 </Card.Body>
               </Card>
