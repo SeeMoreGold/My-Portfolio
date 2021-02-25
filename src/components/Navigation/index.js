@@ -12,14 +12,14 @@ function Navigation() {
                 <Nav.Link className="pt-4" href="/">ABOUT</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link className="p-4" href="/skills">SKILLS</Nav.Link>
+                <Nav.Link className="p-4" href="/My-Portfolio/skills">SKILLS</Nav.Link>
               </Nav.Item>
               {/* <Navbar.Brand className="p-4 brand" href="/">CANDICE <br/> MOREAU</Navbar.Brand> */}
               <Nav.Item >
-                <Nav.Link className="p-4" href="/projects">PROJECTS</Nav.Link>
+                <Nav.Link className="p-4" href="/My-Portfolio/projects">PROJECTS</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link className="p-4" href="/contact">CONTACT</Nav.Link>
+                <Nav.Link className="p-4" href="/My-Portfolio/contact">CONTACT</Nav.Link>
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>
