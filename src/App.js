@@ -21,11 +21,11 @@ function App() {
         <Navigation />
         <Header />
         <Switch>
-            <Route exact path="/My-Portfolio/" component={Home} />
-            <Route exact path="/My-Portfolio/about" component={Home} />
-            <Route exact path="/My-Portfolio/contact" component={Contact} />
-            <Route exact path="/My-Portfolio/skills" component={Skills} />
-            <Route exact path="/My-Portfolio/projects" component={Projects} />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={Home} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/skills" component={Skills} />
+            <Route exact path="/projects" component={Projects} />
             {/* <Route component={NoMatch} /> */}
           </Switch>
         <Footer />
